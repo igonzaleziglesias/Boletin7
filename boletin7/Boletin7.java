@@ -30,6 +30,6 @@ public class Boletin7 {
         } else {
             JOptionPane.showMessageDialog(null, "Devolucion no realizada");
         }
-
+        System.out.println(libro3.toString());
     }
 }

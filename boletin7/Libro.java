@@ -7,6 +7,10 @@ public class Libro {
     private int numExemplares;
     private int exemplaresPrestados;
 
+    public String toString(){
+        return "Titulo del libro: "+tituloLibro +"\nAutor: "+autor+"\nNumero de exemplares: "
+                +numExemplares+"\nNumero de exemplares prestados: "+exemplaresPrestados;
+    }
     //constructores
     public Libro() {
         tituloLibro = "No hay libro alguno";
